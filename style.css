@@ -38,12 +38,13 @@ p {
 
 body {
     background-image: linear-gradient(170deg , var(--white),var(--paleBlue));
-    height: 100vh;
+    height: 100%;
+    padding: 8rem;
 }
 
 .result-card {
     width: 40rem;
-    margin: 7rem auto 7rem;
+    margin: 7rem auto 0rem;
     display: flex;
     height: 29rem;
     background-color: var(--white);
@@ -205,6 +206,9 @@ button:hover {
     cursor: pointer;
 }
 
+footer {
+    margin: 6rem auto .5rem;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
