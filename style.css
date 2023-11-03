@@ -203,10 +203,6 @@ button:hover {
     cursor: pointer;
 }
 
-footer {
-    margin: 6rem auto .5rem;
-}
-
 .attribution { 
     position: absolute;
     bottom: 0;
